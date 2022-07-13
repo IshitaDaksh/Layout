@@ -1,0 +1,89 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 3rem;
+  grid-row-gap: 4rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+
+}
+
+.wrapper > div{
+  background-color: white;
+  padding: 2.2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #ff194f;
+  background-image: linear-gradient(#ff194f , #42caf3);
+  position: absolute;
+  top: 35px;
+}
+
+.cir{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #ff194f;
+  background-image: linear-gradient(#ff194f , #42caf3);
+  position: absolute;
+  top: 350px;
+
+}
+
+
+.fa-brands{
+  position: relative;
+  color: white;
+  top: 15px;
+  left: 15px;
+  font-size: 2rem;
+
+}
+.abc{
+  position: relative;
+  color: white;
+  top: 18px;
+  left: 18px;
+  font-size: 2rem;
+}
+
+
+
+a{
+  color: #ff194f;
+  font-weight: bolder;
+
+}
+
+h2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+
+
+}
+p{
+  text-align:justify;
+  color: #8f8f8f;
+
+}
+
+#mix{
+  padding-top: 14px;
+  background-color: #ff194f;
+  background-image: linear-gradient(to right, #ff194f , #42caf3);
+}
